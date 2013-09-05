@@ -15,18 +15,14 @@ system('title Admin Control Panel Finder Coded by nu11-v0!d from www.openfire-se
 
 print"\n";
 print "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n" ;
-print "          \n                 +-++-++-++-++-++-++-++-+ +-++-++-++-++-++-++-++-+
-                 |o||p||e||n||f||i||r||e| |s||e||c||u||r||i||t||y|
+print "\n                 +-++-++-++-++-++-++-++-+ +-++-++-++-++-++-++-++-+
+                          |A||d||m||i||n| |F||i||n||d||e||r|
                  +-++-++-++-++-++-++-++-+ +-++-++-++-++-++-++-++-+\n";
-print "     OpenFire Technologies ||OpenFire AdminFinder Version 1 (Beta)\n";
-print "                    opyright @ OpenFire Technologies\n";
-print "                           Coded By nu11-v0!d\n" ;
-print "                     website:www.openfire-security.net\n\n";
 print "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n" ;
 print "\n";
 
 print " Enter the website you want to scan \n";
-print" As an Example: www.domaine.com or www.domain.com/path\n";
+print" Example: www.domain.com or www.domain.com/path\n";
 print" --> ";
 $site=<STDIN>;
 chomp $site;
@@ -34,7 +30,7 @@ chomp $site;
 print "\n\n";
 print " Enter the Type of the website \n";
 print" e.g.: asp, php, cfm, any\n";
-print" If you don't know the launguage used to build the website then simply type +++ any +++ \n";
+print" If you don't know the type of the platform, simply type +++ any +++ \n";
 print"--> ";
 $code=<STDIN>;
 chomp($code);
@@ -102,9 +98,8 @@ $response->content =~ /P\/W/ ||
 $response->content =~ /Admin Password/
 ){
 print " \n [+] Found -> $final\n\n";
-print " \n Congratulation, this admin login page is working. \n\n Good luck from nu11-v0!d \n\n";
 }else{
-print "[-] Not Found <- $final\n";
+print " \n [-] Not Found <- $final\n";
 }
 }
 }
@@ -171,9 +166,8 @@ $response->content =~ /P\/W/ ||
 $response->content =~ /Admin Password/
 ){
 print " \n [+] Found -> $final\n\n";
-print " \n Congratulation, this admin login page is working. \n\n Good luck from nu11-v0!d \n\n";
 }else{
-print "[-] Not Found <- $final\n";
+print " \n [-] Not Found <- $final\n";
 }
 }
 }
@@ -238,9 +232,8 @@ $response->content =~ /P\/W/ ||
 $response->content =~ /Admin Password/
 ){
 print " \n [+] Found -> $final\n\n";
-print " \n Congratulation, this admin login page is working. \n\n Good luck from nu11-v0!d \n\n";
 }else{
-print "[-] Not Found <- $final\n";
+print " \n [-] Not Found <- $final\n";
 }
 }
 }
@@ -289,9 +282,8 @@ $response->content =~ /P\/W/ ||
 $response->content =~ /Admin Password/
 ){
 print " \n [+] Found -> $final\n\n";
-print " \n Congratulation, this admin login page is working. \n\n Good luck from nu11-v0!d \n\n";
 }else{
-print "[-] Not Found <- $final\n";
+print " \n [-] Not Found <- $final\n";
 }
 }
 kill("STOP",NULL);
